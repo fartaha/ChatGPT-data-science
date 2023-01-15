@@ -37,14 +37,14 @@ ID, Age, Gender, Occupation, Hours_worked_per_week, Job_stress, Emotional_exhaus
 ```
 This dataset includes the following variables:
 
-ID: A unique identifier for each individual
-Age: The age of the individual
-Gender: The gender of the individual (Male or Female)
-Occupation: The occupation of the individual
-Hours_worked_per_week: The number of hours worked per week by the individual
-Job_stress: The perceived stress level on the job (High, Medium, or Low)
-Emotional_exhaustion: A score on a scale of 1-5 measuring emotional exhaustion (1 = Low, 5 = High)
-Depersonalization: A score on a scale of 1-5 measuring depersonalization (1 = Low, 5 = High)
-Personal_accomplishment: A score on a scale of 1-5 measuring personal accomplishment (1 = Low, 5 = High)
++ ID: A unique identifier for each individual
++ Age: The age of the individual
++ Gender: The gender of the individual (Male or Female)
++ Occupation: The occupation of the individual
++ Hours_worked_per_week: The number of hours worked per week by the individual
++ Job_stress: The perceived stress level on the job (High, Medium, or Low)
++ Emotional_exhaustion: A score on a scale of 1-5 measuring emotional exhaustion (1 = Low, 5 = High)
++ Depersonalization: A score on a scale of 1-5 measuring depersonalization (1 = Low, 5 = High)
++ Personal_accomplishment: A score on a scale of 1-5 measuring personal accomplishment (1 = Low, 5 = High)
 It's a small dataset but it can give you an idea how you can create a dataset like this and you can add more variables according to your research question.
 
