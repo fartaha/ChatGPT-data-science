@@ -20,7 +20,7 @@ Here I will put the applications of ChatGPT in DataScience.
 >>+ 8-Iterate and improve the model as needed by repeating steps 3-7, for example by adding new variables, changing the prior distributions, or trying different model structures.
 
 Keep in mind this is a general workflow and specifics can vary depending on the complexity of the dataset, specific question and the modelling framework of your choice.
->> **Create a small dataset on above**
+> **Create a small dataset on above**
 >> Sure, here's an example of a small synthetic dataset that simulates burnout levels in a group of individuals:
 ```Python
 ID, Age, Gender, Occupation, Hours_worked_per_week, Job_stress, Emotional_exhaustion, Depersonalization, Personal_accomplishment
