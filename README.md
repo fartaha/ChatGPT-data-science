@@ -140,3 +140,14 @@ Finally, I've used the sample method to run the inference using a Markov Chain M
 You can use the trace object to check the convergence of the model and extract the parameter estimates from the posterior distribution. You can also use the posterior predictive checks to assess the model's performance on the held-out test data.
 
 Keep in mind that this is a simple example and can be expanded and tailored to your specific research question and dataset.
+
+## EX3
+> ❓**What are the main Bayesian Data Analysis steps for a given dataset**
+>>The main steps for a Bayesian data analysis on a given dataset are:
+>> + 1. Data Preparation: This step involves loading and cleaning the data, as well as splitting it into training and test sets if necessary. It also involves transforming the data if needed.
+>> + 2. Model Specification: This step involves choosing an appropriate model structure and specifying the priors for the model parameters. The choice of priors is important in Bayesian analysis, as it can greatly affect the inferences made from the data.
+>> + 3. Model Fitting: This step involves using a Bayesian inference algorithm to estimate the posterior distribution of the model parameters given the observed data. Common inference algorithms include Markov Chain Monte Carlo (MCMC) methods such as Metropolis-Hastings and Hamiltonian Monte Carlo (HMC).
+>> + 4. Model Evaluation: This step involves evaluating the model's performance using metrics such as the predictive log-likelihood or cross-validation. It also includes checking for model convergence using techniques such as the Gelman-Rubin statistic or visual inspection of trace plots.
+>> + 5. Model Interpretation: This step involves interpreting the posterior distributions of the model parameters to make inferences about the relationships between the variables in the dataset. This can include calculating credible intervals, generating predictions, and creating visualizations such as posterior plots and correlation plots.
+>> + 6. Model Improvement: If the model is not satisfying the requirements, this step involves iterating and improving the model by repeating steps 2-5, for example by adding new variables, changing the prior distributions, or trying different model structures.
+>> Keep in mind that this is a general workflow and specifics can vary depending on the complexity of the dataset, specific question and the modelling framework of your choice.
