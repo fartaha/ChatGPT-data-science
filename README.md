@@ -20,7 +20,8 @@ Here I will put the applications of ChatGPT in DataScience.
 >>+ 8-Iterate and improve the model as needed by repeating steps 3-7, for example by adding new variables, changing the prior distributions, or trying different model structures.
 
 Keep in mind this is a general workflow and specifics can vary depending on the complexity of the dataset, specific question and the modelling framework of your choice.
->>
+>> **Create a small dataset on above**
+>> Sure, here's an example of a small synthetic dataset that simulates burnout levels in a group of individuals:
 ```Python
 ID, Age, Gender, Occupation, Hours_worked_per_week, Job_stress, Emotional_exhaustion, Depersonalization, Personal_accomplishment
 1, 32, Male, Engineer, 55, High, 3, 2, 4
@@ -34,4 +35,16 @@ ID, Age, Gender, Occupation, Hours_worked_per_week, Job_stress, Emotional_exhaus
 9, 31, Male, Marketing professional, 60, High, 3, 3, 3
 10, 27, Female, Researcher, 40, Low, 1, 2, 5
 ```
+This dataset includes the following variables:
+
+ID: A unique identifier for each individual
+Age: The age of the individual
+Gender: The gender of the individual (Male or Female)
+Occupation: The occupation of the individual
+Hours_worked_per_week: The number of hours worked per week by the individual
+Job_stress: The perceived stress level on the job (High, Medium, or Low)
+Emotional_exhaustion: A score on a scale of 1-5 measuring emotional exhaustion (1 = Low, 5 = High)
+Depersonalization: A score on a scale of 1-5 measuring depersonalization (1 = Low, 5 = High)
+Personal_accomplishment: A score on a scale of 1-5 measuring personal accomplishment (1 = Low, 5 = High)
+It's a small dataset but it can give you an idea how you can create a dataset like this and you can add more variables according to your research question.
 
