@@ -156,6 +156,9 @@ Keep in mind that this is a simple example and can be expanded and tailored to y
 >> + 5. Model Interpretation: This step involves interpreting the posterior distributions of the model parameters to make inferences about the relationships between the variables in the dataset. This can include calculating credible intervals, generating predictions, and creating visualizations such as posterior plots and correlation plots.
 >> + 6. Model Improvement: If the model is not satisfying the requirements, this step involves iterating and improving the model by repeating steps 2-5, for example by adding new variables, changing the prior distributions, or trying different model structures.
 >> Keep in mind that this is a general workflow and specifics can vary depending on the complexity of the dataset, specific question and the modelling framework of your choice.
+
+>❓**Do the above steps in simple example on a common dataset in python**
+>>Sure, here's an example of the main steps for a Bayesian data analysis on a common dataset in Python using the scikit-learn library and the classic iris dataset:
 ```python
 import numpy as np
 from sklearn import datasets
