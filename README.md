@@ -11,7 +11,7 @@ Here I will put the applications of ChatGPT in DataScience.
 >>Bayesian Data Analysis on a common scikit learn data trained by ChatGPT
 >>[data](#ex2), [code](./ex2.py)
 >>
->[Example 3](#ex2)
+>[Example 3](#ex3)
 >>Bayesian Data Analysis whole steps on a common scikit learn data trained by ChatGPT
 >>[data](#ex3), [code](./ex3.py)
 
