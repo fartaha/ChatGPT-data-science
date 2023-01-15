@@ -197,3 +197,10 @@ with pm.Model() as iris_model:
     # 6. Model Improvement
     # if necessary, repeat steps 2-5 with different model structure or priors
 ```
+In this example, I've covered all the main steps for a Bayesian data analysis using the iris dataset. I've used the train_test_split function from the scikit-learn library to split the data into training and testing sets. Then, I've specified the model using pymc3 library, defined the priors for the coefficients and error term, and defined the likelihood using the Deterministic and Normal distributions.
+
+I've then used the sample method to run the inference using a Markov Chain Monte Carlo (MCMC) method, specifically the No-U-Turn Sampler (NUTS), which is a variant of the Hamiltonian Monte Carlo (HMC) algorithm. I've set the number of samples to 3000, the number of tuning steps to 1000, and the number of chains to 2.
+
+For the model evaluation step, I've used summary, traceplot and autocorrplot to check the convergence of the model. Then, I've used plot_posterior and plot_posterior_predictive_glm to inspect the posterior distribution of the parameters and make inferences.
+
+Finally, I've added a note for the model improvement step, where you can iterate and improve the model if necessary by repeating steps 2-5, for example by adding new variables, changing the prior distributions, or trying different model structures.
