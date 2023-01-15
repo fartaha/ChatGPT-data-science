@@ -19,8 +19,9 @@ Set up a bayesian modelling workflow for a synthetic burnout dataset generated b
 >>+ 8-Iterate and improve the model as needed by repeating steps 3-7, for example by adding new variables, changing the prior distributions, or trying different model structures.
 
 Keep in mind this is a general workflow and specifics can vary depending on the complexity of the dataset, specific question and the modelling framework of your choice.
->>```Python
->>ID, Age, Gender, Occupation, Hours_worked_per_week, Job_stress, Emotional_exhaustion, Depersonalization, Personal_accomplishment
+>>
+```Python
+ID, Age, Gender, Occupation, Hours_worked_per_week, Job_stress, Emotional_exhaustion, Depersonalization, Personal_accomplishment
 1, 32, Male, Engineer, 55, High, 3, 2, 4
 2, 25, Female, Teacher, 45, Medium, 2, 1, 5
 3, 40, Male, Lawyer, 60, High, 4, 3, 3
