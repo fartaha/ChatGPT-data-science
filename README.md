@@ -87,4 +87,11 @@ with pm.Model() as burnout_model:
     trace = pm.sample(3000, tune=1000, chains=2)
 
 ```
+In this example, I've defined a simple linear regression model where I have defined priors for the means and standard deviations of the continuous variables and I've also defined a categorical variable for the job stress level (High, Medium, or Low), and used the Categorical distribution to model it, with a softmax link function to the underlying alpha parameter. Then I've defined the observed data using the observed keyword.
+
+Then, I've used the sample method to run the inference using a Markov Chain Monte Carlo (MCMC) method, specifically the No-U-Turn Sampler (NUTS), which is a variant of the Hamiltonian Monte Carlo (HMC) algorithm. I've set the number of samples to 3000, the number of tuning steps to 1000, and the number of chains to 2. These parameters can be adjusted as needed, depending on the complexity of the model and the desired level of precision.
+
+You can use the trace object to check the convergence of the model by checking the R-hat statistic, trace plots and also you can extract and inspect the information from trace such as posterior distribution of parameters, posterior predictive checks, etc.
+
+Keep in mind that this is a simple example and can be expanded and tailored to your specific research question and dataset.
 
