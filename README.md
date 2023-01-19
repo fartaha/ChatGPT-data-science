@@ -14,6 +14,10 @@ Here I will put the applications of ChatGPT in DataScience.
 >[Example 3](#ex3)
 >>Bayesian Data Analysis whole steps on a common scikit learn data trained by ChatGPT
 >>[data](#ex3), [code](./ex3.py)
+>>
+>[Example 4](#ex4)
+>>train a simple machine learning model on a common dataset by ChatGPT
+>>[data](#ex4), [code](./ex4.py)
 
 
 ## EX1
@@ -207,3 +211,32 @@ I've then used the sample method to run the inference using a Markov Chain Monte
 For the model evaluation step, I've used summary, traceplot and autocorrplot to check the convergence of the model. Then, I've used plot_posterior and plot_posterior_predictive_glm to inspect the posterior distribution of the parameters and make inferences.
 
 Finally, I've added a note for the model improvement step, where you can iterate and improve the model if necessary by repeating steps 2-5, for example by adding new variables, changing the prior distributions, or trying different model structures.
+
+## EX4
+> ❓**Train a simple machine learning model on a common dataset**
+>>Here is an example of how to train a simple machine learning model, such as a logistic regression, on a common dataset like the Iris dataset using Python and the scikit-learn library:
+```python
+from sklearn.linear_model import LogisticRegression
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+
+# Load the Iris dataset
+iris = load_iris()
+X, y = iris.data, iris.target
+
+# Split the data into training and test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+
+# Initialize the model
+clf = LogisticRegression(random_state=0)
+
+# Train the model on the training data
+clf.fit(X_train, y_train)
+
+# Test the model on the test data
+accuracy = clf.score(X_test, y_test)
+print("Accuracy: {:.2f}%".format(accuracy * 100))
+```
+This will output the accuracy of the model on the test data.
+
+Note: The code above is just a example and you can use different dataset and model of your choice.
